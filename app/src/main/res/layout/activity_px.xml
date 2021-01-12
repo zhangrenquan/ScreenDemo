@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PxActivity">
+    <TextView
+        android:id="@+id/resolution"
+        android:text="当前分辨率："
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:background="#ffff00"
+        android:layout_width="@dimen/x200"
+        android:layout_height="@dimen/y300"/>
+
+    <TextView
+        android:text="这是一个px适配过的 width=200 height=300"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:background="#ff0000"
+        android:layout_marginLeft="@dimen/x50"
+        android:layout_width="@dimen/x200"
+        android:layout_height="@dimen/y300"/>
+
+    <TextView
+        android:text="这是一个px适配过的 width=200 height=300 marginleft=50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DpActivity">
+
+    <TextView
+        android:id="@+id/resolution"
+        android:text="当前分辨率："
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:background="#0000ff"
+        android:layout_width="@dimen/dp_200"
+        android:layout_height="@dimen/dp_50"/>
+    <TextView
+        android:text="这是一个dp适配过的 width=200 height=50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:background="#00ff00"
+        android:layout_width="@dimen/dp_189"
+        android:layout_marginLeft="@dimen/dp_36"
+        android:layout_height="@dimen/dp_100"/>
+    <TextView
+        android:text="这是一个dp适配过的 width=189 height=100 marginLeft=36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
